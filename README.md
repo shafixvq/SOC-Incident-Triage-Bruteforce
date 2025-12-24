@@ -31,6 +31,26 @@ Multiple failed login attempts were detected against a user account within a sho
 
 MITRE ATT&CK was used to classify the observed behavior and align the incident with known adversary techniques.
 
+## Escalation Criteria
+
+The alert was escalated to Level 2 SOC based on the following criteria:
+- Multiple failed authentication attempts within a short time window
+- Activity matched known brute force attack patterns
+- Potential risk of account compromise if activity continued
+
+Escalation ensures further investigation, potential IP blocking, and account protection measures.
+
+
+## Incident Severity Assessment
+
+| Category | Assessment |
+|--------|------------|
+| Impact | Medium |
+| Likelihood | High |
+| Overall Severity | Medium |
+
+The incident did not result in a successful login, but the attack pattern posed a potential security risk if left unaddressed.
+
 
 ## Findings
 - Multiple failed login attempts were observed within a short timeframe
