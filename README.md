@@ -71,6 +71,14 @@ Based on the investigation, this incident was classified as a **True Positive**.
 The alert met escalation criteria due to repeated unauthorized access attempts and was escalated to Level 2 SOC for further containment actions.
 
 
+## Recommended Mitigation Actions
+
+- Temporarily block source IP address
+- Monitor affected user account for suspicious activity
+- Enforce account lockout policy
+- Review firewall and authentication controls
+
+
 ## Lessons Learned
 - Importance of log correlation
 - Early detection reduces impact
