@@ -24,7 +24,13 @@ Multiple failed login attempts were detected against a user account within a sho
 4. Checked frequency and patterns
 
 ## MITRE ATT&CK Mapping
-- T1110: Brute Force
+
+| Tactic        | Technique ID | Technique Name        | Description |
+|--------------|--------------|-----------------------|-------------|
+| Credential Access | T1110 | Brute Force | Repeated attempts to gain access to an account using multiple passwords |
+
+MITRE ATT&CK was used to classify the observed behavior and align the incident with known adversary techniques.
+
 
 ## Findings
 - Multiple failed login attempts were observed within a short timeframe
