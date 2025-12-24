@@ -27,10 +27,16 @@ Multiple failed login attempts were detected against a user account within a sho
 - T1110: Brute Force
 
 ## Findings
-The activity showed repeated failed authentication attempts from a single external IP address.
+- Multiple failed login attempts were observed within a short timeframe
+- The activity originated from a single external IP address
+- The login pattern was consistent with brute force behavior
+- No successful login was detected during the observation period
+
 
 ## Conclusion & Escalation
-This alert was classified as a **True Positive** and escalated to L2 SOC for further action.
+Based on the investigation, this incident was classified as a **True Positive**.
+The alert met escalation criteria due to repeated unauthorized access attempts and was escalated to Level 2 SOC for further containment actions.
+
 
 ## Lessons Learned
 - Importance of log correlation
